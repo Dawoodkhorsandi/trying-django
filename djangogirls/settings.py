@@ -25,7 +25,7 @@ SECRET_KEY = 'ka6z**g^7s^rfdu!5u0n(r-7)1#9v6t^er%!)jb(gc65saftqt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["simpleblog.pythonanywhere.com","127.0.0.1"]
 
 
 # Application definition
@@ -120,3 +120,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT =   os.path.join(BASE_DIR,'static')
+
+
+
+
+
+
+LOGIN_REDIRECT_URL = '/'
